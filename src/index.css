@@ -17,7 +17,7 @@
 	}
 
 	button {
-		@apply cursor-pointer rounded-lg border-2 border-solid border-white bg-none px-3 py-[6px] text-base font-bold;
+		@apply m-5 cursor-pointer rounded-lg border-2 border-solid border-white bg-none px-3 py-[6px] text-base font-bold;
 	}
 
 	button:hover {
