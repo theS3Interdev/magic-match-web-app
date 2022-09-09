@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import SingleCard from './components/single-card';
 
 const cardImages = [
-	{ src: '/assets/helmet-1.png' },
-	{ src: '/assets/potion-1.png' },
-	{ src: '/assets/ring-1.png' },
-	{ src: '/assets/scroll-1.png' },
-	{ src: '/assets/shield-1.png' },
-	{ src: '/assets/sword-1.png' },
+	{ src: '/assets/helmet-1.png', matched: false },
+	{ src: '/assets/potion-1.png', matched: false },
+	{ src: '/assets/ring-1.png', matched: false },
+	{ src: '/assets/scroll-1.png', matched: false },
+	{ src: '/assets/shield-1.png', matched: false },
+	{ src: '/assets/sword-1.png', matched: false },
 ];
 
 const App = () => {
@@ -35,10 +35,19 @@ const App = () => {
 	useEffect(() => {
 		if (choiceOne && choiceTwo) {
 			if (choiceOne.src === choiceTwo.src) {
-				console.log('found matching cards');
+				console.log('the selected cards match');
+				setCards((previousCard) => {
+					return previousCard.map((card) => {
+						if (card.src === choiceOne.src) {
+							return { ...card, matched: true };
+						} else {
+							return card;
+						}
+					});
+				});
 				resetTurn();
 			} else {
-				console.log("found cards that don't match");
+				console.log("the selected cards don't match");
 				resetTurn();
 			}
 		}
