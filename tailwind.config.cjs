@@ -8,7 +8,7 @@ module.exports = {
 		extend: {
 			colors: {
 				darkPurple: '#1b1523',
-				midPink: '#c23866',
+				darkPink: '#c23866',
 			},
 		},
 		plugins: [

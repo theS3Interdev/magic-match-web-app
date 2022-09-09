@@ -17,10 +17,14 @@
 	}
 
 	button {
-		@apply m-5 cursor-pointer rounded-lg border-2 border-solid border-white bg-none px-3 py-[6px] text-base font-bold;
+		@apply cursor-pointer rounded-lg border-2 border-solid border-white bg-none px-3 py-[6px] text-base font-bold;
 	}
 
 	button:hover {
-		@apply bg-midPink;
+		@apply bg-darkPink;
+	}
+
+	.card-grid {
+		@apply mt-10 grid grid-cols-4 gap-5;
 	}
 }
