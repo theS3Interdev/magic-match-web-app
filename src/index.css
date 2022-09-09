@@ -27,4 +27,12 @@
 	.card-grid {
 		@apply mt-10 grid grid-cols-4 gap-5;
 	}
+
+	.card {
+		@apply relative;
+	}
+
+	.card img {
+		@apply block w-full rounded-md border-2 border-solid border-white;
+	}
 }
