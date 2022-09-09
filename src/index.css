@@ -36,3 +36,12 @@
 		@apply block w-full rounded-md border-2 border-solid border-white;
 	}
 }
+
+/** front of the card */
+.card .front {
+	transform: rotateY(90deg);
+	position: absolute;
+}
+.flipped .front {
+	transform: rotateY(0deg);
+}
