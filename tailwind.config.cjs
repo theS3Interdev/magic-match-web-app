@@ -3,15 +3,19 @@ module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		fontFamily: {
-			poppins: 'Poppins, sans-serif',
 			ubuntu: 'Ubuntu, sans-serif',
 		},
-		extend: {},
+		extend: {
+			colors: {
+				darkPurple: '#1b1523',
+				midPink: '#c23866',
+			},
+		},
+		plugins: [
+			require('@tailwindcss/aspect-ratio'),
+			require('@tailwindcss/forms'),
+			require('@tailwindcss/line-clamp'),
+			require('@tailwindcss/typography'),
+		],
 	},
-	plugins: [
-		require('@tailwindcss/aspect-ratio'),
-		require('@tailwindcss/forms'),
-		require('@tailwindcss/line-clamp'),
-		require('@tailwindcss/typography'),
-	],
 };
