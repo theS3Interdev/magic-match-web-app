@@ -2,7 +2,12 @@
 
 ## Summary
 
-Sample React.JS learning project.
+React.JS project created to learn about
+
+1. State and useState
+1. Components and Props
+1. Styling React.JS with CSS and Tailwind CSS
+1. useEffect hook
 
 The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
 
@@ -39,7 +44,7 @@ yarn build
 ## Technologies Used
 
 1. React.JS
-2. Tailwind CSS
-3. Vite.JS
-4. Github Actions
-5. Firebase Hosting
+1. Tailwind CSS
+1. Vite.JS
+1. Github Actions
+1. Firebase Hosting
