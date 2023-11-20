@@ -9,9 +9,7 @@ React.JS project created to learn about
 1. Styling React.JS with CSS and Tailwind CSS
 1. useEffect hook
 
-The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
-
-Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to Firebase Hosting.
+Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to GitHub Pages.
 
 ## Getting Started
 
@@ -47,4 +45,4 @@ yarn build
 1. Tailwind CSS
 1. Vite.JS
 1. Github Actions
-1. Firebase Hosting
+1. GitHub Pages

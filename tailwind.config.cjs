@@ -11,11 +11,6 @@ module.exports = {
 				darkPink: '#c23866',
 			},
 		},
-		plugins: [
-			require('@tailwindcss/aspect-ratio'),
-			require('@tailwindcss/forms'),
-			require('@tailwindcss/line-clamp'),
-			require('@tailwindcss/typography'),
-		],
+		plugins: [],
 	},
 };
