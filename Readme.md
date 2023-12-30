@@ -1,4 +1,4 @@
-# The Memory Game
+# Magic Match Game
 
 ## Summary
 
