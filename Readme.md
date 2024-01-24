@@ -1,4 +1,4 @@
-# Magic Match Game
+# Magic Match Web App
 
 ## Summary
 
